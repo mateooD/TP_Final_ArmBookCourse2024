@@ -61,7 +61,7 @@ En la Fig. 1.1 se muestra un diagrama en bloques del proyecto. Se observan cuatr
 
 El primero consiste en un módulo WiFi que se utilizara para la comunicación con el Bot de Telegram, y un display LCD que mostrará la información pertinente en pantalla para una rápida visualización. El segundo consiste en dos sensores: un sensor de temperatura y un sensor de sólidos disueltos totales para monitorear el estado del agua. El tercero consiste en un módulo RTC para poder llevar un control preciso del tiempo para las funciones por tiempo. El último consiste en el motor paso a paso que será el responsable de girar el recipiente de alimento de forma que caiga una dosis en cada iteración.
 
-(imagen)
+![diagrama_de_bloques](https://github.com/mateooD/TP_Final_ArmBookCourse2024/blob/1-requirement-project/Figures/diagrama_bloques.png)
 
 _Figura 1.1: Diagrama de bloques_
 
