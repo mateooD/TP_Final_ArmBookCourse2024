@@ -9,32 +9,31 @@
 - Eduardo Filomena
 
 ## 1. Selección de proyecto a implementar
-Para comenzar el proceso de selección del proyecto final de este curso fue necesario definir un grupo de proyectos posibles y evaluarlos basandonos en criterios tecnicos y subjetivos. Para ello se realizó una tabla comparativa en donde se le asignó un peso a cada uno de los siguientes parámetros: tiempo y facilidad de implementación (alto), la disponibilidad y costo de hardware (medio), motivación personal (media) y utilidad del proyecto (medio).
+Para seleccionar el proyecto final de este curso, fue necesario definir un grupo de proyectos posibles y evaluarlos basándonos en criterios técnicos y subjetivos. Para ello, se realizó una tabla comparativa en la que se asignó un peso a cada uno de los siguientes parámetros: tiempo y facilidad de implementación (alto), disponibilidad y costo del hardware (medio), motivación personal (medio), y utilidad del proyecto (medio).
 
-En todos los casos se asignará un puntaje del 1 al 10 en donde 10 es lo más favorable y 1, lo menos. Para asignar los pesos se consideraron dos aspectos: en primer lugar y con un peso mayor, que tan conveniente resultará el proyecto una vez realizado y que tan posible sería llevarlo a cabo en el marco del proyecto final del curso.
-El primer aspecto se dedica a determinar si existe una vida útil del proyecto una vez culminado ya sea en un ámbito académico o posiblemente comercial.
-Por otro lado, el segundo aspecto determina si es posible finalizar el proyecto considerando el presupuesto destinado al proyecto y el entusiasmo que genera en las personas destinadas a este fin.
+En todos los casos, se asignó un puntaje del 1 al 10, donde 10 es lo más favorable y 1 lo menos favorable. Los pesos asignados consideraron dos aspectos principales: en primer lugar, con un peso mayor, se evaluó qué tan conveniente sería el proyecto una vez finalizado y qué tan factible sería llevarlo a cabo dentro del marco del proyecto final del curso.
+
+El primer aspecto se centra en determinar si el proyecto tendría una vida útil, ya sea en un contexto académico o comercial. Por otro lado, el segundo aspecto evalúa la viabilidad del proyecto, considerando el presupuesto disponible y el entusiasmo generado en las personas involucradas.
 
 A continuación, se describen las categorías con las cuales se evaluarán los proyectos:
 
-- **_Tiempo de implementación_**: Este aspecto representa la factibilidad en un tiempo dado del proyecto, es lo que permite que el proyecto pueda ser terminado antes de la fecha de entrega. En éste caso se le dará bastante importancia dado el tiempo límite del proyecto. 
+- **_Tiempo de implementación_**: Este aspecto mide la viabilidad del proyecto dentro de un tiempo determinado, asegurando que pueda ser completado antes de la fecha límite. Se le otorgó una alta importancia debido a las restricciones temporales del curso.
 
-- **_Disponibilidad y costo de hardware_**: Teniendo en cuenta que el proyecto deberá ser ensamblado físicamente, la disponibilidad del hardware es extremadamente importante y tal vez el aspecto más fundamental.
+- **_Disponibilidad y costo de hardware_**: Dado que el proyecto debe ser ensamblado físicamente, la disponibilidad del hardware es un aspecto fundamental. Además, el costo del hardware fue considerado, ya que un presupuesto limitado podría afectar la viabilidad del proyecto.
 
-- **_Motivación personal_**: Aquí se asignará un puntaje de manera objetiva según el entusiasmo que me produce la propuesta en cuestión. Considero que para llevar a cabo un proyecto la predisposición  de las personas a cargo de este es un factor relevante.
+- **_Motivación personal_**: Aquí se asignó un puntaje en función del entusiasmo personal hacia cada propuesta. La predisposición y motivación de quienes realizan el proyecto son factores clave para su éxito.
 
-- **_Utilidad del proyecto_**: En esta categoría se evaluará si el proyecto propone una solución inexistente en el mercado a un problema relevante.
-
+- **_Utilidad del proyecto_**: Esta categoría evalúa si el proyecto ofrece una solución novedosa y relevante a un problema existente en el mercado.
 
 ## 1.2 Propuestas analizadas
+
 Como trabajo final se analizaron las siguientes propuestas: 
 
-* **Sintetizador y procesamiento de audio** : El sistema se basa en sintesis y procesamiento de señales para generar audio. A nivel personal generaba bastante entusiasmo pero era un proyecto ambicioso para el tiempo que se tiene. Lo desafiante de estos proyectos es procesar el sonido a tiempo real, lo que lleva a procesar señales con alto procesamiento. Esto representa una limitación que dependerá de la eficiencia de los algoritmos utilizados y el buena gestión de los recursos del microcontrolador.
+* **Sintetizador y procesamiento de audio** : El sistema se basa en sintesis y procesamiento de señales para generar audio.  Aunque genera un alto entusiasmo personal, es un proyecto ambicioso para el tiempo disponible. La principal dificultad radica en procesar el sonido en tiempo real, lo cual requiere algoritmos eficientes y una gestión óptima de los recursos del microcontrolador.
     
-    
-* **GPS tracker**: Este proyecto consiste en la utilización de un GPS para la utilización en diversos dispositivos. La dificultad en este proyecto radicaba en la disponibilidad del hardware como asi tambien el conocimiento que se debe tener sobre Radio Frecuencias para la implementación de el mismo.
+* **GPS tracker**: Este proyecto consiste en la implementación de un GPS para su uso en diversos dispositivos. La dificultad radica en la disponibilidad del hardware y el conocimiento necesario sobre Radio Frecuencia para su implementación.
 
-* **Sistema de estacionamiento inteligente**: Se trata de un sistema de control de un estacionamiento de vehiculos automatizado. La idea se se basa en el control de lugares, reservas de los mismos e interaccion con el usuario. Teniendo en cuenta que es un prototipo podemos implementar dichas funcionalidades con hardware erlativamente economico, incorporando tambien diversos modulos (SPI,WIFI,LCD).
+* **Sistema de estacionamiento inteligente**:  Este proyecto se centra en el control automatizado de un estacionamiento de vehículos. La idea es gestionar los espacios, permitir reservas, e interactuar con el usuario. Dado que es un prototipo, se pueden implementar estas funcionalidades con hardware relativamente económico, incluyendo módulos como SPI, WiFi y LCD.
 
 | Proyecto  |   | **_Tiempo de implementación (peso:10)_** | **_Disponibilidad y costo de hardware_(peso:8)** | **_Motivación personal_(peso=9)**: | **_Utilidad del proyecto_(peso=6)**: | **_Total puntuación ponderada_** |
 |:------------: |:---------------:| :-------------:|:-----:|:-----:|:-----:|:-----:|
@@ -46,20 +45,15 @@ Como trabajo final se analizaron las siguientes propuestas:
 |        | Puntuación ponderada         | 70       |64  |72  |42  |248  |
 
 
-En efecto, el proyecto de sintetizador y procesamiento de audio necesitaba optimizar cuestiones del hardware y sobre todo habría necesitado demasiado tiempo. Son las razones por las cuales no le elegí. 
-El GPS tracker podría ser una buena idea de proyecto también pero se necesitaba mas tiempo para el estudio de el modulo, como asi tambien los costos de el mismo.  
-Finalmente , el sistema de estacionamiento inteligente es el proyecto que elegí para el final del curso de  Sistemas Embebidos. 
-Se eligió dicho proyecto ya que al tratarse de un trabajo de final de curso podemos tomar la situacion como un prototipo, es por ello que el hardware lo podemos limitar a las funcionalidades que nos parezcan mas convenientes.
+El proyecto de sintetizador y procesamiento de audio, aunque interesante, requiere optimizaciones significativas en el hardware y demandaría más tiempo del disponible. Estas razones llevaron a descartarlo. El GPS Tracker también es una buena opción, pero se necesitaba más tiempo para estudiar el módulo y el costo del hardware era elevado. Finalmente, se optó por el sistema de estacionamiento inteligente debido a su viabilidad y relevancia en el contexto del curso. Al ser un prototipo, el hardware puede limitarse a las funcionalidades más convenientes.
 
 ## Sistema de estacionamiento inteligente
 
-El proyecto consiste en desarrollar un sistema de estacionamiento inteligente que permite el control y monitoreo del servicio. Los usuarios podrán realizar reservas de espacios de estacionamiento a través de internet utilizando una aplicación o interfaz web, y aquellos sin reserva podrán verificar la disponibilidad en tiempo real mediante un display LCD en el lugar. La comunicación entre el sistema y los usuarios se llevará a cabo mediante WiFi, mientras que el propietario del estacionamiento podrá monitorear y controlar el sistema mediante una conexión UART a una PC.
+Este proyecto tiene como objetivo desarrollar un sistema de estacionamiento inteligente que permita el control y monitoreo del servicio. Los usuarios podrán realizar reservas de espacios a través de internet utilizando una aplicación o interfaz web, mientras que aquellos sin reserva podrán verificar la disponibilidad en tiempo real mediante un display LCD en el lugar. La comunicación con los usuarios se llevará a cabo mediante WiFi, y el propietario del estacionamiento podrá monitorear y controlar el sistema mediante una conexión UART a una PC.
 
-Un motor servo simulará una barrera de acceso que permitirá o denegará el ingreso de vehículos en función de la validación de la reserva o disponibilidad de espacios.
+Un motor servo simulará una barrera de acceso, la cual se abrirá o cerrará según la validación de la reserva o la disponibilidad de espacios.
 
-En la Fig. 1.1 se muestra un diagrama en bloques del proyecto. Se observan cuatro grandes grupos de periféricos: interfaz de usuario, sensores, control de tiempo real y actuadores. 
-
-El primero consiste en un módulo WiFi que se utilizara para la comunicación con el Bot de Telegram, y un display LCD que mostrará la información pertinente en pantalla para una rápida visualización. El segundo consiste en dos sensores: un sensor de temperatura y un sensor de sólidos disueltos totales para monitorear el estado del agua. El tercero consiste en un módulo RTC para poder llevar un control preciso del tiempo para las funciones por tiempo. El último consiste en el motor paso a paso que será el responsable de girar el recipiente de alimento de forma que caiga una dosis en cada iteración.
+En la Figura 1.1 se presenta un diagrama en bloques del proyecto, que abarca cuatro grandes grupos de periféricos: interfaz de usuario, sensores, control de tiempo real y actuadores.
 
 ![diagrama_de_bloques](https://github.com/mateooD/TP_Final_ArmBookCourse2024/blob/1-requirement-project/Figures/diagrama_bloques.png)
 
@@ -67,7 +61,7 @@ _Figura 1.1: Diagrama de bloques_
 
 ### Comparativa prodcutos del mercado
 
-Dado que el proyecto resuelve un problema demasiado específico, no existe un producto rápidamente disponible en el mercado. Ademas cabe destacar que este proyecto se basa en un prototipo que en su primer objetivo es mas academico y no tanto de mercado.
+El proyecto aborda un problema muy específico, por lo que no existe un producto de este tipo disponible en el mercado de manera inmediata. Además, cabe destacar que este proyecto es un prototipo con un enfoque más académico que comercial.
 
 | Característica         | Park Assist                           | Cleverciti                              |
 |------------------------|-------------------------------------------|-------------------------------------------|
